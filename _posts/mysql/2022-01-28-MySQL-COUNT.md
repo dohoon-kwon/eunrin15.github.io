@@ -1,11 +1,11 @@
 ---
-title:  "[MySQL] 레코드의 개수 구하기(COUNT())"
-excerpt: "레코드의 개수 구하기(COUNT())"
+title:  "[MySQL] COUNT()"
+excerpt: "레코드의 개수 구하는 법"
 
 categories:
   - MySQL
 tags:
-  - [MySQL, COUNT]
+  - [COUNT]
 
 toc: true
 classes: wide
@@ -39,3 +39,5 @@ SELECT COUNT(*) as cnt FROM hero_collection;
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
