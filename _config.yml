@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "개발자 도훈"
   avatar           : "https://avatars.githubusercontent.com/u/56423448?s=400&u=c447228ab30eb89fac875e5640fdc918ce17f6c7&v=4"
-  bio              : "제 블로그를 방문해주셔서 감사합니다! 🥰"
+  bio              : "안녕하세요.<\br>공부하는 개발자 도훈입니다.학습하고 사용하는 기술들을 정리하고 기억하기 위한 블로그입니다."
   #location         : "Seoul, South Korea"
   links:
     - label: "Email"
