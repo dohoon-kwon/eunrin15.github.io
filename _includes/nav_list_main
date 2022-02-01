@@ -76,7 +76,7 @@
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "FastCampus" %}
-                <li><a href="/categories/FastCampus" class="">React프로젝트 ({{category[1].size}})</a></li>
+                <li><a href="/categories/FastCampus" class="">React 프로젝트 ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
