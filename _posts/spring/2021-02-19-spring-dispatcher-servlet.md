@@ -5,7 +5,7 @@ excerpt: "Dispatcher-Servlet 개념 정리"
 categories:
   - Spring
 tags:
-  - [Java, Spring, Dispatcher-Servlet]
+  - [Java, Dispatcher-Servlet]
 
 toc: true
 classes: wide
@@ -52,3 +52,5 @@ ViewResolver를 통해 얻은 View객체를 통해 사용자에게 보여줄 화
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

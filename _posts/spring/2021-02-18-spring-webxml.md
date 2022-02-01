@@ -5,7 +5,7 @@ excerpt: "web.xml 파일 구조 정리"
 categories:
   - Spring
 tags:
-  - [Java, web.xml, Spring]
+  - [Java, web.xml]
 
 toc: true
 classes: wide
@@ -302,3 +302,5 @@ j_username, j_password, j_security_check 와 같이 정해진 명칭으로 데�
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

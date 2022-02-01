@@ -5,7 +5,7 @@ excerpt: "Ajax로 jsp에서 controller로 데이터 송신"
 categories:
   - Spring
 tags:
-  - [Java, Javascript, Spring, ajax, controller, jsp]
+  - [Java, Javascript, ajax, controller, jsp]
 
 toc: true
 classes: wide
@@ -53,3 +53,5 @@ public void testFunction(Locale locale, HttpServletRequest request, ModelMap mod
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

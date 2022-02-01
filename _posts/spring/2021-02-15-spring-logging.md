@@ -5,7 +5,7 @@ excerpt: "Logging 개념 정리"
 categories:
   - Spring
 tags:
-  - [Java, Javascript, Spring, Logging]
+  - [Java, Javascript, Logging]
 
 toc: true
 classes: wide
@@ -80,3 +80,5 @@ log4j 는 콘솔, 파일, DB, socket, message, mail 등 다양한 로그 출력 
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

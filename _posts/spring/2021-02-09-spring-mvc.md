@@ -5,7 +5,7 @@ excerpt: "MVC 정리"
 categories:
   - Spring
 tags:
-  - [Java, Javascript, Spring, MVC]
+  - [Java, Javascript, MVC]
 
 toc: true
 classes: wide
@@ -360,3 +360,5 @@ View 이름은 RequestToViewNameTranslator가 결정한다.
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

@@ -5,7 +5,7 @@ excerpt: "IoC Container"
 categories:
   - Spring
 tags:
-  - [Java, Javascript, Spring, IoC Container]
+  - [Java, Javascript, IoC Container]
 
 toc: true
 classes: wide
@@ -317,3 +317,5 @@ public class ExampleBean {
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}
