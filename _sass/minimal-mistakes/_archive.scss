@@ -35,7 +35,8 @@
   margin: 0.8em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-3;
-  color: mix(#fff,$primary-color, 40%);
+  // color: mix(#fff,$primary-color, 40%);
+  color: mix(#fff, #833d37, 40%);
   border-bottom: 1px solid $border-color;
   font-family: $serif;
 
@@ -52,7 +53,6 @@
   text-overflow: ellipsis;
   font-family: $cute;
   font-size: $type-size-4;
-  color: #833d37 !important;
 
   a[rel="permalink"]::before {
     content: '';
