@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dir
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : " 평생 공부 블로그 : Today I Learned‍ 🌙"
+title                    : " 도훈'S 블로그 🎉"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "식빵맘💛"
-description              : "공부 & 취미 블로그"
+name                     : ""
+description              : "공부 블로그"
 url                      : "https://eunrin15.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ansohxxn/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
