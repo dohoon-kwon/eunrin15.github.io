@@ -131,8 +131,6 @@ SELECT ReserveDate, CONCAT(RoomNum, " : ", Name) AS ReserveInfo
 FROM Reservation;
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fedacde3-c7cf-4f00-ab4f-1c6860bbe2e8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fedacde3-c7cf-4f00-ab4f-1c6860bbe2e8/Untitled.png)
-
 CONCAT() 함수는 인수로 전달받은 문자열을 모두 결합하여 하나의 문자열로 반환하는 함수입니다.
 
 ```
