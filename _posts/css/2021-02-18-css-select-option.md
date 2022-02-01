@@ -5,7 +5,7 @@ excerpt: "select와 option 설명 및 사용법"
 categories:
   - CSS
 tags:
-  - [CSS, select, option]
+  - [select, option]
 
 toc: true
 classes: wide
@@ -62,3 +62,5 @@ option 요소는 아무런 속성도 명시하지 않은 채 사용할 수 있�
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}
