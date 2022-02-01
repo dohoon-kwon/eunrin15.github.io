@@ -50,8 +50,8 @@ ResultHandler 인터페이스<br>
 
 ### Migrating from iBatis
 ---
-![Spring_MyBatis_Migrating(1)](/imgsrc/Spring_MyBatis_Migrating(1).JPG)<br>
-![Spring_MyBatis_Migrating(2)](/imgsrc/Spring_MyBatis_Migrating(2).JPG)
+![Spring_MyBatis_Migrating(1)](/img/Spring_MyBatis_Migrating(1).JPG)<br>
+![Spring_MyBatis_Migrating(2)](/img/Spring_MyBatis_Migrating(2).JPG)
 
 ### MyBatis를 활용한 Persistence Layer 개발
 ---
@@ -80,7 +80,7 @@ DAO 클래스 작성<br>
 ---
 실행할 SQL문과 Parameter Object와 Result Object 정보 등을 설정
 
-![Spring_MtBatis_SQL_Mapper](/imgsrc/Spring_MtBatis_SQL_Mapper.JPG)
+![Spring_MtBatis_SQL_Mapper](/img/Spring_MtBatis_SQL_Mapper.JPG)
 
 ### [MyBatis 설정 1] SQL Mapper XML 파일 작성 - Dynamic SQL
 ---
@@ -131,7 +131,7 @@ SQL문의 다양한 위치에서 사용 가능하고, 선언된 if 조건에 따
 AND, OR, ‘,’와 같이 반복되는 문자를 자동적으로 trim(제거)<br>
 아래 예제의 <trim prefix=“WHERE” prefixOverrides=“AND|OR”>은 <where>와 동일하게 동작<br>
 
-![Spring_MyBatis_trim](/imgsrc/Spring_MyBatis_trim.JPG)
+![Spring_MyBatis_trim](/img/Spring_MyBatis_trim.JPG)
 
 - foreach<br>
 Map, List, Array에 담아 넘긴 값을 꺼낼 때 사용하는 요소
@@ -209,13 +209,13 @@ SQL Mapper XML 파일을 일괄 지정할 수 있다. 단, Configuration 파일�
 ---
 EgovAbstractMapper 클래스를 상속받아 DAO 클래스를 작성<br>
 
-![Spring_MyBatis_EgovAbstractMapper](/imgsrc/Spring_MyBatis_EgovAbstractMapper.JPG)<br>
+![Spring_MyBatis_EgovAbstractMapper](/img/Spring_MyBatis_EgovAbstractMapper.JPG)<br>
 
 DAO 클래스 대신 Interface 작성 (Mapper Interface 방식)<br>
 - 기존 DAO 클래스의 MyBatis 메서드 호출 코드를 최소화시킨 방법으로, 각 Statement id와 메서드명을 동일하게 작성하면 MyBatis가 자동으로 SQL문을 호출한다.
 - 실제 내부적으로 MyBatis는 풀네임을 포함한 메서드명을 Statement id로 사용한다.
 
-![Spring_MyBatis_Mapper_Interface](/imgsrc/Spring_MyBatis_Mapper_Interface.JPG)<br>
+![Spring_MyBatis_Mapper_Interface](/img/Spring_MyBatis_Mapper_Interface.JPG)<br>
 
 - 이 때 SQL Mapper XML 파일의 namespace값을 해당 Mapper의 풀네임으로 설정해야 한다.
 - MyBatis는 해당 Mapper의 풀네임과 일치하는 namespace에서 메서드명과 동일한 id를 가진 Statement를 호출한다.

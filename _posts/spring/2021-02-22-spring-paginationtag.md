@@ -20,7 +20,7 @@ last_modified_at: 2021-02-22
 ### Pagination Tag이란?
 ---
 
-![Spring_Paginationtag](/imgsrc/Spring_Paginationtag.jpg)
+![Spring_Paginationtag](/img/Spring_Paginationtag.jpg)
 
 페이징 처리의 편의를 위해 전자정부프레임워크에서 제공하는 태그입니다.<br>
 페이징 기능을 사용할때 기능은 유사하지만 이미지나 라벨등의 포맷만 다양하게 사용하게 되는 경우가 있습니다.<br>

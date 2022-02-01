@@ -43,7 +43,7 @@ class 자식클래스이름 extend 부모클래스이름 { ... }
 ### 부모 클래스와 자식 클래스 간의 포함 관계
 ---
 
-![Spring_inheritance_child](/imgsrc/Spring_inheritance_child.png)
+![Spring_inheritance_child](/img/Spring_inheritance_child.png)
 
 이처럼 부모 클래스는 자식 클래스에 포함된 것으로 볼 수 있습니다.<br>
 따라서 부모 클래스에 새로운 필드를 하나 추가하면, 자식 클래스에도 자동으로 해당 필드가 추가된 것처럼 동작합니다.<br>

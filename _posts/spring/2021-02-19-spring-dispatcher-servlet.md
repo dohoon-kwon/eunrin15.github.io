@@ -25,7 +25,7 @@ Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을
 그래서 공통처리 작업을 Dispatcher-Servlet이 처리한 후에 적절한 세부 컨트롤러로 작업을 위임해 줍니다.<br>
 작업을 위임할 수 있게 Dispatcher-Servlet이 처리하는 url 패턴을 지정해주어야 하는데 일반적으로는 /*.do와 같은 /로 시작하며 .do로 끝나는 url 패턴에 대해서 처리하라고 지정해줍니다.<br>
 
-![Spring_Dispatcher_Servlet_Flow](/imgsrc/Spring_Dispatcher_Servlet_Flow.png)
+![Spring_Dispatcher_Servlet_Flow](/img/Spring_Dispatcher_Servlet_Flow.png)
 
 1. 클라이언트로부터 요청(Request) 접수<br>
 서블릿 컨테이너에서 받은 HTTP요청을 Dispatcherservlet에 할당해주는데 이를 먼저 web.xml에서 설정해줍니다.<br>

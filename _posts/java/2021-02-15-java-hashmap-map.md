@@ -86,7 +86,7 @@ hashing을 사용하기 때문에 많은양의 데이터를 검색하는데 뛰�
 2. key 값을 중복이 불가능 하고 value는 중복이 가능. value에 null값도 사용 가능하다.
 3. 멀티쓰레드에서 동시에 HashMap을 건드려 Key - value값을 사용하면 문제가 될 수 있다.<br>멀티쓰레드에서는 HashTable을 쓴다
 
-![Spring_HashMap](/imgsrc/Spring_HashMap.JPG)<br>
+![Spring_HashMap](/img/Spring_HashMap.JPG)<br>
 
 위 그림과 같이 HashMap은 내부에 '키'와 '값'을 저장하는 자료 구조를 가지고 있다.<br>
 HashMap은 해시 함수를 통해 '키'와 '값'이 저장되는 위치를 결정하므로, 사용자는 그 위치를 알 수 없고, 삽입되는 순서와 들어 있는 위치 또한 관계가 없다. 

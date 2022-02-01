@@ -27,7 +27,7 @@ last_modified_at: 2021-02-15
 1. Dependency Injection
 2. Bean Lifecycle Management
 
-![IoC 개요](/imgsrc/Spring_IoC.JPG)<br>
+![IoC 개요](/img/Spring_IoC.JPG)<br>
 1. 업무 모듈은 IOC Container 서비스에 객체 생성을 요청한다.
 2. IoC Container는 표준 프레임워크 설정 정보에 객체 생성을 위한 종속성 정보 등과 같은 Ioc Container 설정 정보를 참조한다.
 3. IoC Container는 설정 정보에 따라 객체를 생성하여 업무 모듈에게 돌려준다.
@@ -45,7 +45,7 @@ Dependency Injection이란 모듈간의 의존성을 모듈의 외부(컨테이�
 
 ### Non-IoC/DI vs IoC/DI
 ---
-![Non-IoC/DI vs IoC/DI](/imgsrc/Spring_Non_IoC_DI_IoC_DI.JPG)
+![Non-IoC/DI vs IoC/DI](/img/Spring_Non_IoC_DI_IoC_DI.JPG)
 
 ### 기본 개념
 ---
@@ -120,7 +120,7 @@ XML 설정은 여러 개의 파일로 구성될 수 있으며, <import/> element
 Bean 정의는 Bean을 객체화하고 의존성을 주입하는 등의 관리를 위한 정보를 담고 있다.<br>
 XML 설정에서는 <bean/> element가 Bean 정의를 나타낸다.<br>
 Bean 정의는 아래와 같은 속성을 가진다.<br>
-![Bean](/imgsrc/Spring_IoC_Bean.JPG)
+![Bean](/img/Spring_IoC_Bean.JPG)
 
 ### Bean 이름
 ---

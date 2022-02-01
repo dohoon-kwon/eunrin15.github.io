@@ -57,7 +57,7 @@ Controller가 수행 결과를 반영하는 Model 데이터 객체와 이동할 
 - Controller는 비지니스 로직을 수행(호출)하고 결과 데이터를 ModelAndView에 반영하여 return한다.<br>
 - ViewResolver는 view name을 받아 해당하는 View 객체를 return한다.<br>
 - View는 Model 객체를 받아 rendering한다.<br>
-![MVC컴포넌트 간의 관계와 흐름](/imgsrc/Spring_MVC_Component.jpg)
+![MVC컴포넌트 간의 관계와 흐름](/img/Spring_MVC_Component.jpg)
 
 ### DispatcherServlet
 ---
@@ -65,7 +65,7 @@ Controller로 향하는 모든 웹요청의 진입점이며, 웹요청을 처리
 Spring MVC의 웹요청 Life Cycle을 주관<br>
 이 때 DispatcherServlet이 모든 요청을 가로채는 건 아니고 [**web.xml**](https://eunrin15.github.io/spring/spring-webxml)에 등록된 내용만 가로챈다.<br>
 최초의 web.xml 에서는 url-pattern이 '/'와 같이 해당 애플리케이션의 모든 URL로 등록돼있기 때문에, 만약 *. do와 같이 특정 URL만 적용하고 싶다면 url-pattern의 내용을 바꿔주어 범위를 변경하면 된다.<br>
-![MVC컴포넌트 간의 관계와 흐름](/imgsrc/Spring_MVC_DispatcherServlet.jpg)
+![MVC컴포넌트 간의 관계와 흐름](/img/Spring_MVC_DispatcherServlet.jpg)
 
 ### DispatcherServlet, ApplicationContext, WebApplicationContext
 ---
@@ -73,11 +73,11 @@ Spring MVC의 웹요청 Life Cycle을 주관<br>
 - ApplicationContext : ContextLoaderListener에 의해 생성. persistance, service layer의 빈<br>
 - WebApplicationContext : DispatcherServlet에 의해 생성. presentation layer의 빈<br>
 - ContextLoaderListener는 웹 어플리케이션이 시작되는 시점에 ApplicationContext을 만들고, 이 ApplicationContext의 빈<br>
-![DispatcherServlet, ApplicationContext, WebApplicationContext](/imgsrc/Spring_MVC_DAW.jpg)
+![DispatcherServlet, ApplicationContext, WebApplicationContext](/img/Spring_MVC_DAW.jpg)
 
 ### web.xml에 DispatcherServlet 설정
 ---
-![web.xml에 DispatcherServlet 설정](/imgsrc/Spring_MVC_DispatcherServlet_Setting.jpg)
+![web.xml에 DispatcherServlet 설정](/img/Spring_MVC_DispatcherServlet_Setting.jpg)
 
 ### @MVC
 ---
@@ -138,7 +138,7 @@ RequestMappingHandlerMapping(DefaultAnnotationHandlerMapping는 deprecated)
 SimpleUrlAnnotationHandlerMapping(표준프레임워크3.0부터deprecated됨 mvc 태그로 변경)
 - DefaultAnnotationHandlerMapping은 특정 url에 대해 interceptor를 적용할수 없음. -> 확장 HandlerMapping
 - DefaultAnnotationHandlerMapping과 함께 사용. (order 프로퍼티를 SimpleUrlAnnotationHandlerMapping에 준다.)<br>
-![Spring_MVC_SimpleAnnotation](/imgsrc/Spring_MVC_SimpleAnnotation.JPG)
+![Spring_MVC_SimpleAnnotation](/img/Spring_MVC_SimpleAnnotation.JPG)
 
 ### @controller 관련 Annotation
 ---

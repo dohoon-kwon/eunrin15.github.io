@@ -149,7 +149,7 @@ JSON 객체는 **중괄호({})로 둘러쌓아 표현**합니다. 또한, JSON �
 }
 ```
 
-![Spring_JSON_Object](/imgsrc/Spring_JSON_Object.png)
+![Spring_JSON_Object](/img/Spring_JSON_Object.png)
 
 ### JSON 배열
 ---
@@ -164,7 +164,7 @@ JSON 배열은 **대괄호([])로 둘러쌓아 표현**합니다. 또한, JSON �
 ]
 ```
 
-![Spring_JSON_Array](/imgsrc/Spring_JSON_Array.png)
+![Spring_JSON_Array](/img/Spring_JSON_Array.png)
 
 ```
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
