@@ -3,7 +3,7 @@ title:  "[React Project] 개발환경 설정"
 excerpt: "React 프로젝트의 앞서 개발환경을 설정해보자"
 
 categories:
-  - FasCampus
+  - fastcampus
 tags:
   - [React, Project]
 

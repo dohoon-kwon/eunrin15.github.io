@@ -1,7 +1,7 @@
 ---
 title: "[React 프로젝트]"
 layout: archive
-permalink: categories/FastCampus
+permalink: categories/fastcampus
 author_profile: true
 sidebar_main: true
 ---
