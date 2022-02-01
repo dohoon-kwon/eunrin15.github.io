@@ -10,9 +10,6 @@ classes: wide
 
 sidebar:
   nav: "docs"
-
-date: 2022-02-01
-last_modified_at: 2022-02-01
 ---
 
 ### 블로그 방문을 환영합니다! 🥰
