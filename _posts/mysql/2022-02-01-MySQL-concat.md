@@ -1,5 +1,5 @@
 ---
-title:  "[MySQL] 문자열 결합하는 법 :: CONCAT"
+title:  "[MySQL] 문자열 결합하는 법 :: CONCAT()"
 excerpt: "문자열 결합하는 법을 알아보자"
 
 categories:
@@ -17,7 +17,7 @@ date: 2022-02-01
 last_modified_at: 2022-02-01
 ---
 
-### 1️⃣ CONCAT 이란?
+### 1️⃣ CONCAT() 이란?
 ---
 
 전달받은 문자열을 모두 결합하여 하나의 문자열로 반환합니다.<br>
