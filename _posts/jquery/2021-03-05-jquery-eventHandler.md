@@ -5,7 +5,7 @@ excerpt: "jQuery를 이용한 eventHandler 추가 및 제거 방법 정리"
 categories:
   - jQuery
 tags:
-  - [jQuery, event, eventHandler]
+  - [event, eventHandler]
 
 toc: true
 classes: wide
@@ -46,3 +46,5 @@ addEventListener를 removeEventListener으로 변경해주면 됩니다.
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

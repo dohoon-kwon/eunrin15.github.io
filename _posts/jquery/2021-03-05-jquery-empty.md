@@ -5,7 +5,7 @@ excerpt: "jQuery를 이용한 해당 태그를 남긴 채 하위요소 한 번�
 categories:
   - jQuery
 tags:
-  - [jQuery, empty]
+  - [empty]
 
 toc: true
 classes: wide
@@ -34,3 +34,5 @@ $("특정 태그의 id, class, name...").empty();
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}

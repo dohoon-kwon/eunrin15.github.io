@@ -11,6 +11,20 @@
         </li>
         <li>
             <span class="nav__sub-title">Front-End</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "jQuery" %}
+                <li><a href="/categories/jQuery" class="">jQuery ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Javascript" %}
+                <li><a href="/categories/Javascript" class="">Javascript ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
         <li>
             <span class="nav__sub-title">Back-End</span>
