@@ -148,8 +148,8 @@
     &:hover {
       // @include yiq-contrasted($muted-text-color);
       background-color: #f00;
-      text-decoration: none;
-      color: #fff;
+      text-decoration: none !important;
+      color: #fff !important;
     }
 
     &:first-child {
