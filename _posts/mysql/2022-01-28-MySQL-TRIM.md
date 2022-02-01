@@ -5,7 +5,7 @@ excerpt: "DB에서 특정 문자를 제거하는 법을 알아보자"
 categories:
   - MySQL
 tags:
-  - [COUNT()]
+  - [TRIM()]
 
 toc: true
 classes: wide
