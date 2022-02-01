@@ -3,9 +3,9 @@ title:  "[React] useState 정리 및 사용법"
 excerpt: "useState 정리 및 사용법을 알아보자"
 
 categories:
-  - react
+  - React
 tags:
-  - [react, useState]
+  - [useState]
 
 toc: true
 classes: wide
@@ -23,3 +23,5 @@ useState는 React의 state를 관리하는 hook 입니다.
 공부하고 참고하여 기록해두는 개인 기록용 포스팅입니다!
 🤔 부족한 부분이 많으니 감안하여 봐주시길 바랍니다. 🤔
 ```
+
+[맨 위로 이동하기](#){: .btn }{: .align-right}
