@@ -28,6 +28,13 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "JSON" %}
+                <li><a href="/categories/JSON" class="">JSON ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
         <li>
             <span class="nav__sub-title">Memo</span>
